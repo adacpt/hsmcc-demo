@@ -1,0 +1,374 @@
+{
+    "DevicesControlledPillar": {
+        "DeviceSelectionMap": {
+            "Admin": [
+                {
+                    "DeviceCategory": "Tuners",
+                    "SmartGraphic": 8,
+                    "Join": 4016,
+                    "DeviceName": "Tuner1"
+                },
+                {
+                    "DeviceCategory": "Tuners",
+                    "SmartGraphic": 8,
+                    "Join": 4020,
+                    "DeviceName": "Tuner2"
+                },
+                {
+                    "DeviceCategory": "Cameras",
+                    "SmartGraphic": 0,
+                    "Join": 160,
+                    "DeviceName": "Front Camera"
+                },
+                {
+                    "DeviceCategory": "Cameras",
+                    "SmartGraphic": 0,
+                    "Join": 161,
+                    "DeviceName": "Rear Camera"
+                }
+            ]
+        },
+        "CommandParameterSelectionMap": {
+            "Admin": [
+                {
+                    "CommandParameterCategory": "Timezones",
+                    "SmartGraphic": 0,
+                    "Join": 560,
+                    "ParameterValue": "zone1"
+                },
+                {
+                    "CommandParameterCategory": "Timezones",
+                    "SmartGraphic": 0,
+                    "Join": 561,
+                    "ParameterValue": "zone2"
+                },
+                {
+                    "CommandParameterCategory": "Timezones",
+                    "SmartGraphic": 0,
+                    "Join": 562,
+                    "ParameterValue": "zone3"
+                },
+                {
+                    "CommandParameterCategory": "Timezones",
+                    "SmartGraphic": 0,
+                    "Join": 563,
+                    "ParameterValue": "zone4"
+                },
+                {
+                    "CommandParameterCategory": "Timezones",
+                    "SmartGraphic": 0,
+                    "Join": 564,
+                    "ParameterValue": "zone5"
+                },
+                {
+                    "CommandParameterCategory": "Timezones",
+                    "SmartGraphic": 0,
+                    "Join": 565,
+                    "ParameterValue": "zone6"
+                },
+                {
+                    "CommandParameterCategory": "Timezones",
+                    "SmartGraphic": 0,
+                    "Join": 566,
+                    "ParameterValue": "zone7"
+                },
+                {
+                    "CommandParameterCategory": "Timezones",
+                    "SmartGraphic": 0,
+                    "Join": 567,
+                    "ParameterValue": "zone8"
+                },
+                {
+                    "CommandParameterCategory": "VideoWall Layouts",
+                    "SmartGraphic": 0,
+                    "Join": 560,
+                    "ParameterValue": "layout1"
+                },
+                {
+                    "CommandParameterCategory": "VideoWall Layouts",
+                    "SmartGraphic": 0,
+                    "Join": 561,
+                    "ParameterValue": "layout2"
+                },
+                {
+                    "CommandParameterCategory": "VideoWall Layouts",
+                    "SmartGraphic": 0,
+                    "Join": 562,
+                    "ParameterValue": "layout3"
+                },
+                {
+                    "CommandParameterCategory": "VideoWall Layouts",
+                    "SmartGraphic": 0,
+                    "Join": 563,
+                    "ParameterValue": "layout4"
+                }
+            ]
+        },
+        "Displays": {
+            "LeftDisplay": {
+                "Manufacturer": "Sony",
+                "ConnectionInfo": {
+                    "HostName": "LeftDisplay",
+                    "UiName": "Left",
+                    "IpAddress": "192.168.1.231",
+                    "DeviceId": 0,
+                    "Port": 0
+                }
+            },
+
+            "RightDisplay": {
+                "Manufacturer": "Sony",
+                "ConnectionInfo": {
+                    "HostName": "RightDisplay",
+                    "UiName": "Right",
+                    "IpAddress": "192.168.1.197",
+                    "DeviceId": 0,
+                    "Port": 0
+                }
+            }
+        },
+        "DSPs": {
+            "DSP": {
+                "Manufacturer": "Marantz",
+                "ConnectionInfo": {
+                    "HostName": "DSP",
+                    "UiName": "DSP",
+                    "IpAddress": "192.168.1.160",
+                    "DeviceId": 0,
+                    "Port": 0
+                }
+            }
+        },
+        "MatrixSwitches": {
+            "MatrixSwitch": {
+                "Manufacturer": "AVPro",
+                "ConnectionInfo": {
+                    "HostName": "MatrixSwitch",
+                    "UiName": "MatrixSwitch",
+                    "IpAddress": "192.168.1.241",
+                    "DeviceId": 0,
+                    "Port": 0
+                }
+            }
+        },
+        "VTCs": {
+            "VTC": {
+                "Manufacturer": "Cisco",
+                "ConnectionInfo": {
+                    "HostName": "Cisco Webex",
+                    "UiName": "Cisco Webex",
+                    "IpAddress": "192.168.1.210",
+                    "DeviceId": 0,
+                    "Port": 0
+                }
+            }
+        },
+        "VideoWalls": {
+            "VideoWall": {
+                "Manufacturer": "RGB Spectrum",
+                "ConnectionInfo": {
+                    "HostName": "RGBSpectrum",
+                    "UiName": "RGBSpectrum",
+                    "IpAddress": "192.168.1.212",
+                    "DeviceId": 0,
+                    "Port": 0
+                }
+            }
+        },
+        "Cameras": {
+            "FrontCamera": {
+                "Manufacturer": "Vaddio",
+                "ConnectionInfo": {
+                    "HostName": "FrontCamera",
+                    "UiName": "FrontCamera",
+                    "IpAddress": "192.168.1.240",
+                    "DeviceId": 0,
+                    "Port": 0
+                }
+            },
+            "RearCamera": {
+                "Manufacturer": "Vaddio",
+                "ConnectionInfo": {
+                    "HostName": "RearCamera",
+                    "UiName": "RearCamera",
+                    "IpAddress": "192.168.1.240",
+                    "DeviceId": 0,
+                    "Port": 0
+                }
+            }
+        },
+        "SignagePlayers": {
+            "LeftPlayer": {
+                "Manufacturer": "Spinetix",
+                "ConnectionInfo": {
+                    "HostName": "LeftPlayer",
+                    "UiName": "LeftPlayer",
+                    "IpAddress": "192.168.1.240",
+                    "DeviceId": 0,
+                    "Port": 0
+                },
+                "TimeZones": 4
+            },
+            "RightPlayer": {
+                "Manufacturer": "Spinetix",
+                "ConnectionInfo": {
+                    "HostName": "RightPlayer",
+                    "UiName": "RightPlayer",
+                    "IpAddress": "192.168.1.240",
+                    "DeviceId": 0,
+                    "Port": 0
+                },
+                "TimeZones": 4
+            }
+        },
+        "PowerControllers": {
+            "SecretController": {
+                "Manufacturer": "Spinetix",
+                "ConnectionInfo": {
+                    "HostName": "LeftPlayer",
+                    "UiName": "LeftPlayer",
+                    "IpAddress": "192.168.1.240",
+                    "DeviceId": 0,
+                    "Port": 0
+                }
+            }
+        },
+        "BluRays": {
+            "BluRay": {
+                "Manufacturer": "Sony",
+                "ConnectionInfo": {
+                    "HostName": "LeftPlayer",
+                    "UiName": "LeftPlayer",
+                    "IpAddress": "192.168.1.240",
+                    "DeviceId": 0,
+                    "Port": 0
+                }
+            }
+        },
+        "ButtonActions": [
+            {
+                "TouchPanels": [
+                    "Admin"
+                ],
+                "Join": 100,
+                "ButtonState": "On",
+                "Commands": [
+                    {
+                        "DeviceCategory": "Display",
+                        "DeviceName": "LeftDisplay",
+                        "CommandName": "Power",
+                        "DisplayCommandParameters": {
+                            "PowerParam": 1
+                        }
+                    },
+                    {
+                        "DeviceCategory": "Display",
+                        "DeviceName": "RightDisplay",
+                        "CommandName": "Power",
+                        "DisplayCommandParameters": {
+                            "PowerParam": 1
+                        }
+                    },
+                    {
+                        "DeviceCategory": "DSP",
+                        "DeviceName": "DSP",
+                        "CommandName": "SetVolumeMute",
+                        "DspCommandParameters": {
+                            "LevelNameParam": "MV",
+                            "SpeakerMuteParam": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "TouchPanels": [
+                    "Admin"
+                ],
+                "Join": 62,
+                "ButtonState": "On",
+                "Commands": [
+                    {
+                        "DeviceCategory": "DSP",
+                        "DeviceName": "DSP",
+                        "CommandName": "AdjustVolume",
+                        "DspCommandParameters": {
+                            "LevelNameParam": "MV",
+                            "VolumeAdjustParam": 1
+                        }
+                    }
+                ]
+            },
+            {
+                "TouchPanels": [
+                    "Admin"
+                ],
+                "Join": 61,
+                "ButtonState": "On",
+                "Commands": [
+                    {
+                        "DeviceCategory": "DSP",
+                        "DeviceName": "DSP",
+                        "CommandName": "AdjustVolume",
+                        "DspCommandParameters": {
+                            "LevelNameParam": "MV",
+                            "VolumeAdjustParam": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "TouchPanels": [
+                    "Admin"
+                ],
+                "Join": 62,
+                "ButtonState": "Hold",
+                "Commands": [
+                    {
+                        "DeviceCategory": "DSP",
+                        "DeviceName": "DSP",
+                        "CommandName": "AdjustVolume",
+                        "DspCommandParameters": {
+                            "LevelNameParam": "MV",
+                            "VolumeAdjustParam": 1
+                        }
+                    }
+                ]
+            },
+            {
+                "TouchPanels": [
+                    "Admin"
+                ],
+                "Join": 61,
+                "ButtonState": "Hold",
+                "Commands": [
+                    {
+                        "DeviceCategory": "DSP",
+                        "DeviceName": "DSP",
+                        "CommandName": "AdjustVolume",
+                        "DspCommandParameters": {
+                            "LevelNameParam": "MV",
+                            "VolumeAdjustParam": 0
+                        }
+                    }
+                ]
+            },
+            {
+                "TouchPanels": [
+                    "Admin"
+                ],
+                "Join": 60,
+                "ButtonState": "On",
+                "Commands": [
+                    {
+                        "DeviceCategory": "DSP",
+                        "DeviceName": "DSP",
+                        "CommandName": "ToggleVolumeMute",
+                        "DspCommandParameters": {
+                            "LevelNameParam": "MV"
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+}

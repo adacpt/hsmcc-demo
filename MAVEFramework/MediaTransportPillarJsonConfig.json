@@ -1,0 +1,531 @@
+{
+    "MediaTransportPillar": {
+        "IODevices": [
+            {
+                "Name": "PC1",
+                "DeviceCategory": 1,
+                "Rooms": [
+                    "Room1"
+                ],
+                "State": "Stateful",
+                "Classification": 1,
+                "Sources": [
+                    {
+                        "FullName": "PC1 Input 1",
+                        "ShortName": "Video 1",
+                        "SourceNodeIndex": 1,
+                        "SourceCategory": 1,
+                        "SignalType": 1,
+                        "State": "Stateful",
+                        "Classification": 1
+                    },
+                    {
+                        "FullName": "PC1 Input 2",
+                        "ShortName": "Video 2",
+                        "SourceNodeIndex": 2,
+                        "SourceCategory": 1,
+                        "SignalType": 1,
+                        "State": "Stateful",
+                        "Classification": 1
+                    }
+                ],
+                "Destinations": [
+                    {
+                        "FullName": "PC1 Output 1",
+                        "ShortName": "Video 1",
+                        "DestinationNodeIndex": 4,
+                        "DestinationCategory": 5,
+                        "SignalType": 1,
+                        "State": "Stateful",
+                        "Classification": 2
+                    },
+                    {
+                        "FullName": "PC1 Output 2",
+                        "ShortName": "Video 2",
+                        "DestinationNodeIndex": 5,
+                        "DestinationCategory": 5,
+                        "SignalType": 1,
+                        "State": "Stateful",
+                        "Classification": 2
+                    }
+                ]
+            },
+            {
+                "Name": "PC2",
+                "DeviceCategory": 1,
+                "Rooms": [
+                    "Room1"
+                ],
+                "State": "Stateful",
+                "Classification": 2,
+                "Sources": [
+                    {
+                        "FullName": "PC2 Input 1",
+                        "ShortName": "Video 1",
+                        "SourceNodeIndex": 3,
+                        "SourceCategory": 1,
+                        "SignalType": 1,
+                        "State": "Stateful",
+                        "Classification": 2
+                    },
+                    {
+                        "FullName": "PC2 Input 2",
+                        "ShortName": "Video 2",
+                        "SourceNodeIndex": 4,
+                        "SourceCategory": 1,
+                        "SignalType": 1,
+                        "State": "Stateful",
+                        "Classification": 2
+                    }
+                ],
+                "Destinations": [
+                    {
+                        "FullName": "PC2 Output 1",
+                        "ShortName": "Video 1",
+                        "DestinationNodeIndex": 6,
+                        "DestinationCategory": 5,
+                        "SignalType": 1,
+                        "State": "Stateful",
+                        "Classification": 2
+                    },
+                    {
+                        "FullName": "PC2 Output 2",
+                        "ShortName": "Video 2",
+                        "DestinationNodeIndex": 7,
+                        "DestinationCategory": 5,
+                        "SignalType": 1,
+                        "State": "Stateful",
+                        "Classification": 2
+                    }
+                ]
+            },
+            {
+                "Name": "Front Camera",
+                "DeviceCategory": 2,
+                "Rooms": [
+                    "Room1"
+                ],
+                "State": "Stateless",
+                "Classification": 1,
+                "Sources": [
+                    {
+                        "FullName": "Front Camera",
+                        "ShortName": "Front Camera",
+                        "SourceNodeIndex": 5,
+                        "SourceCategory": 2,
+                        "SignalType": 2,
+                        "State": "Stateless",
+                        "Classification": 1
+                    }
+                ]
+            },
+            {
+                "Name": "Rear Camera",
+                "DeviceCategory": 2,
+                "Rooms": [
+                    "Room1"
+                ],
+                "State": "Stateless",
+                "Classification": 1,
+                "Sources": [
+                    {
+                        "FullName": "Rear Camera",
+                        "ShortName": "Rear Camera",
+                        "SourceNodeIndex": 6,
+                        "SourceCategory": 2,
+                        "SignalType": 2,
+                        "State": "Stateless",
+                        "Classification": 1
+                    }
+                ]
+            },
+
+            {
+                "Name": "SIPR VTC",
+                "DeviceCategory": 2,
+                "Rooms": [
+                    "Room1"
+                ],
+                "State": "Stateful",
+                "Classification": 2,
+                "Sources": [
+                    {
+                        "FullName": "SIPR Primary",
+                        "ShortName": "SIPR Primary",
+                        "SourceNodeIndex": 7,
+                        "SourceCategory": 2,
+                        "SignalType": 1,
+                        "State": "Stateful",
+                        "Classification": 2
+                    },
+                    {
+                        "FullName": "SIPR Secondary",
+                        "ShortName": "SIPR Secondary",
+                        "SourceNodeIndex": 8,
+                        "SourceCategory": 2,
+                        "SignalType": 1,
+                        "State": "Stateful",
+                        "Classification": 2
+                    }
+                ],
+                "Destinations": [
+                    {
+                        "FullName": "SIPR VTC Monitor 1",
+                        "ShortName": "SIPR Monitor 1",
+                        "DestinationNodeIndex": 8,
+                        "DestinationCategory": 3,
+                        "SignalType": 1,
+                        "State": "Stateful",
+                        "Classification": 2
+                    },
+                    {
+                        "FullName": "SIPR VTC Monitor 2",
+                        "ShortName": "SIPR Monitor 2",
+                        "DestinationNodeIndex": 9,
+                        "DestinationCategory": 3,
+                        "SignalType": 1,
+                        "State": "Stateful",
+                        "Classification": 2
+                    }
+                ]
+            },
+            {
+                "Name": "BluRay",
+                "DeviceCategory": 3,
+                "Rooms": [
+                    "Room1"
+                ],
+                "State": "Stateful",
+                "Classification": 1,
+                "Sources": [
+                    {
+                        "FullName": "BluRay",
+                        "ShortName": "Video 1",
+                        "SourceNodeIndex": 9,
+                        "SourceCategory": 3,
+                        "SignalType": 1,
+                        "State": "Stateful",
+                        "Classification": 1
+                    }
+                ]
+            },
+            {
+                "Name": "CATV 1",
+                "DeviceCategory": 3,
+                "Rooms": [
+                    "Room1"
+                ],
+                "State": "Stateful",
+                "Classification": 1,
+                "Sources": [
+                    {
+                        "FullName": "CATV 1",
+                        "ShortName": "Video 1",
+                        "SourceNodeIndex": 10,
+                        "SourceCategory": 3,
+                        "SignalType": 1,
+                        "State": "Stateful",
+                        "Classification": 1
+                    }
+                ]
+            },
+            {
+                "Name": "CATV 2",
+                "DeviceCategory": 3,
+                "Rooms": [
+                    "Room1"
+                ],
+                "State": "Stateful",
+                "Classification": 1,
+                "Sources": [
+                    {
+                        "FullName": "CATV 2",
+                        "ShortName": "Video 1",
+                        "SourceNodeIndex": 11,
+                        "SourceCategory": 3,
+                        "SignalType": 1,
+                        "State": "Stateful",
+                        "Classification": 1
+                    }
+                ]
+            },
+            {
+                "Name": "Left Display",
+                "DeviceCategory": 4,
+                "Rooms": [
+                    "Room1"
+                ],
+                "State": "Stateless",
+                "Classification": 2,
+                "Destinations": [
+                    {
+                        "FullName": "Left Display",
+                        "ShortName": "Left Display",
+                        "DestinationNodeIndex": 1,
+                        "DestinationCategory": 1,
+                        "SignalType": 2,
+                        "State": "Stateless",
+                        "Classification": 2
+                    }
+                ]
+            },
+            {
+                "Name": "Right Display",
+                "DeviceCategory": 4,
+                "Rooms": [
+                    "Room1"
+                ],
+                "State": "Stateless",
+                "Classification": 2,
+                "Destinations": [
+                    {
+                        "FullName": "Right Display",
+                        "ShortName": "Right Display",
+                        "DestinationNodeIndex": 2,
+                        "DestinationCategory": 1,
+                        "SignalType": 2,
+                        "State": "Stateless",
+                        "Classification": 2
+                    }
+                ]
+            },
+            {
+                "Name": "Audio",
+                "DeviceCategory": 4,
+                "Rooms": [
+                    "Room1"
+                ],
+                "State": "Stateless",
+                "Classification": 2,
+                "Destinations": [
+                    {
+                        "FullName": "Audio",
+                        "ShortName": "Audio",
+                        "DestinationNodeIndex": 3,
+                        "DestinationCategory": 1,
+                        "SignalType": 3,
+                        "State": "Stateless",
+                        "Classification": 2
+                    }
+                ]
+            },
+            {
+                "Name": "SIPR WebConference",
+                "DeviceCategory": 2,
+                "Rooms": [
+                    "Room1"
+                ],
+                "State": "Stateful",
+                "Classification": 2,
+                "Destinations": [
+                    {
+                        "FullName": "SIPR WebConference",
+                        "ShortName": "SIPR WebConference",
+                        "DestinationNodeIndex": 7,
+                        "DestinationCategory": 3,
+                        "SignalType": 2,
+                        "State": "Stateful",
+                        "Classification": 2
+                    }
+                ]
+            },
+            {
+                "Name": "Blank",
+                "DeviceCategory": 0,
+                "Rooms": [
+                    "Room1"
+                ],
+                "State": "Stateful",
+                "Classification": 1,
+                "Sources": [
+                    {
+                        "FullName": "",
+                        "ShortName": "",
+                        "SourceNodeIndex": 8,
+                        "SourceCategory": 1,
+                        "SignalType": 1,
+                        "State": "Stateful",
+                        "Classification": 1
+                    }
+                ]
+            }
+        ],
+        "TouchPanels": [
+            {
+                "Name": "Admin",
+                "SourceButtonInputMap": {
+                    "PCSourceButtonMap": {
+                        "MapType": "Variable",
+                        "VariableSourceButtonMap": {
+                            "SGID": 7,
+                            "SmartGraphicJoins": [
+                                "press1",
+                                "press3",
+                                "press5",
+                                "press7",
+                                "press9",
+                                "press11",
+                                "press13",
+                                "press15",
+                                "press17"
+                            ]
+                        }
+                    },
+                    "MediaSourceButtonMap": {
+                        "MapType": "Variable",
+                        "VariableSourceButtonMap": {
+                            "SGID": 8,
+                            "SmartGraphicJoins": [
+                                "press1",
+                                "press5",
+                                "press9"
+                            ]
+                        }
+                    },
+                    "VTCSourceButtonMap": {
+                        "MapType": "StaticTouchPanel",
+                        "StaticTouchPanelSourceButtonMap": {
+                            "TPID": 0,
+                            "Joins": [
+                                230,
+                                231,
+                                210,
+                                211
+                            ],
+                            "Sources": [
+                                "Camera1",
+                                "Camera2"
+                            ]
+                        }
+                    },
+                    "BlankButtonMap": {
+                        "StaticTouchPanelSourceButtonMap": {
+                            "TPID": 0,
+                            "Joins": [
+                                290
+                            ],
+                            "Sources": [
+                                "Blank"
+                            ]
+                        }
+                    }
+                },
+                "DestinationButtonOutputMap": {
+                    "DisplayDestinationButtonMap": {
+                        "MapType": "Variable",
+                        "VariableDestinationButtonMap": {
+                            "SGID": 2,
+                            "SmartGraphicJoins": [
+                                "press1",
+                                "press4",
+                                "press7",
+                                "press10"
+                            ]
+                        }
+                    },
+                    "CollaborationDestinationButtonMap": {
+                        "MapType": "StaticTouchPanel",
+                        "StaticTouchPanelDestinationButtonMap": {
+                            "TPID": 0,
+                            "Joins": [
+                                320,
+                                321,
+                                322
+                            ]
+                        }
+                    }
+                },
+                "AutomaticRoutingButtonMap": {
+                    "MainMenu": {
+                        "SGID": 2,
+                        "TPID": 0,
+                        "Joins": [
+                            11
+                        ],
+                        "AutomaticRoutes": [
+                            "Room 1 Presentation"
+                        ]
+                    }
+                }
+            }
+        ],
+        "AutomaticRoutes": {
+            "Room 1 Presentation": [
+                {
+                    "Sources": [ "", "PC1 Input 1", "PC2 Input 1" ],
+                    "Destinations": [ "Left Display", "Left Display", "Left Display" ]
+                },
+                {
+                    "Sources": [ "", "PC1 Input 2", "PC2 Input 2" ],
+                    "Destinations": [ "Right Display", "Right Display", "Right Display" ]
+                },
+                {
+                    "Sources": [ "", "PC1 Input 1", "PC2 Input 1" ],
+                    "Destinations": [ "Audio", "Audio", "Audio" ]
+                }
+            ],
+            "Room 1 VTC": [
+                {
+                    "Sources": [ "", "", "SIPR Primary" ],
+                    "Destinations": [ "Left Display", "Left Display", "Left Display" ]
+                },
+                {
+                    "Sources": [ "", "", "SIPR Secondary" ],
+                    "Destinations": [ "Right Display", "Right Display", "Right Display" ]
+                },
+                {
+                    "Sources": [ "", "", "SIPR Primary" ],
+                    "Destinations": [ "Audio", "Audio", "Audio" ]
+                },
+                {
+                    "Sources": [ "", "", "Front Camera" ],
+                    "Destinations": [ "", "", "SIPR VTC Monitor 1" ]
+                }
+            ],
+            "Room 1 WebConference": [
+                {
+                    "Sources": [ "", "PC1 Input 1", "PC2 Input 1" ],
+                    "Destinations": [ "Left Display", "Left Display", "Left Display" ]
+                },
+                {
+                    "Sources": [ "", "PC1 Input 2", "PC2 Input 2" ],
+                    "Destinations": [ "Right Display", "Right Display", "Right Display" ]
+                },
+                {
+                    "Sources": [ "", "PC1 Input 1", "PC2 Input 1" ],
+                    "Destinations": [ "Audio", "Audio", "Audio" ]
+                },
+                {
+                    "Sources": [ "", "", "Front Camera" ],
+                    "Destinations": [ "", "", "SIPR WebConference" ]
+                }
+            ],
+            "Room 1 CATV": [
+                {
+                    "Sources": [ "", "CATV 1", "CATV 1" ],
+                    "Destinations": [ "Left Display", "Left Display", "Left Display" ]
+                },
+                {
+                    "Sources": [ "", "CATV 2", "CATV 2" ],
+                    "Destinations": [ "Right Display", "Right Display", "Right Display" ]
+                },
+                {
+                    "Sources": [ "", "CATV 1", "CATV 1" ],
+                    "Destinations": [ "Audio", "Audio", "Audio" ]
+                }
+            ]
+        },
+        "PresetRoutes": {
+            "Room 1 Preset 1": [
+                {
+                    "Source": "PC1 Input 1",
+                    "Destination": "Left Display"
+                },
+                {
+                    "Source": "PC1 Input 2",
+                    "Destination": "Right Display"
+                }
+            ]
+        }
+    }
+}

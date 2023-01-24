@@ -1,0 +1,750 @@
+{
+    "UserInteractionPillar": {
+        "TouchPanels": [
+            {
+                "Name": "Main",
+                "IPID": 31
+            }
+        ],
+        "KeyBoards": {
+            "VTCKeyBoard": {
+                "KeyBoardJoins": [
+                    410,
+                    411,
+                    412,
+                    413,
+                    414,
+                    415,
+                    416,
+                    417,
+                    418,
+                    419,
+                    420,
+                    421,
+                    422,
+                    423,
+                    424,
+                    425,
+                    426,
+                    427,
+                    428,
+                    429,
+                    430,
+                    431,
+                    432,
+                    433,
+                    434,
+                    435,
+                    436,
+                    437,
+                    438,
+                    439,
+                    440,
+                    441,
+                    442,
+                    443,
+                    444,
+                    445,
+                    446,
+                    447,
+                    448,
+                    449,
+                    450,
+                    451
+                ],
+                "KeyBoardCharacters": [
+                    "Q",
+                    "W",
+                    "E",
+                    "R",
+                    "T",
+                    "Y",
+                    "U",
+                    "I",
+                    "O",
+                    "P",
+                    "A",
+                    "S",
+                    "D",
+                    "F",
+                    "G",
+                    "H",
+                    "J",
+                    "K",
+                    "L",
+                    "Z",
+                    "X",
+                    "C",
+                    "V",
+                    "B",
+                    "N",
+                    "M",
+                    ".",
+                    "/",
+                    "*",
+                    "#",
+                    "0",
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7",
+                    "8",
+                    "9",
+                    " ",
+                    "@"
+                ],
+                "BackSpaceJoin": 455,
+                "DialString": ""
+            },
+            "ATCKeyBoard": {
+                "KeyBoardJoins": [
+                    500,
+                    501,
+                    502,
+                    503,
+                    504,
+                    505,
+                    506,
+                    507,
+                    508,
+                    509,
+                    510,
+                    511
+                ],
+                "KeyBoardCharacters": [
+                    "0",
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7",
+                    "8",
+                    "9",
+                    "*",
+                    "#"
+                ],
+                "BackSpaceJoin": 515,
+                "DialString": ""
+            }
+        },
+        "ButtonJoinMaps": {
+            "UnclassClassificationBtn": {
+                "EnableDigitalJoin": 111
+            },
+            "SecretClassificationBtn": {
+                "EnableDigitalJoin": 112
+            },
+            "SanitizeBtn": {
+                "PressDigitalJoin": 70,
+                "FeedbackDigitalJoin": 70,
+                "EnableDigitalJoin": 80
+            },
+            "AudioConferenceSelectionBtn": {
+                "EnableDigitalJoin": 123
+            },
+            "AudioConferenceBtn": {
+                "EnableDigitalJoin": 90
+            },
+            "RoomClassification": {
+                "EnableDigitalJoin": 69,
+                "AnalogJoin": 1
+            },
+            "BlankSourceBtn": {
+                "PressDigitalJoin": 290,
+                "FeedbackDigitalJoin": 290,
+                "CurrentStatus": 0
+            },
+            "VTCPresentationDestBtn": {
+                "EnableDigitalJoin": 321
+            },
+            "VTCCameraDestBtn": {
+                "EnableDigitalJoin": 320
+            },
+            "AVBridgeDestBtn": {
+                "EnableDigitalJoin": 322
+            },
+            "CollaborationDestinationGroupBtn": {
+                "VisibleDigitalJoin": 135,
+                "EnableDigitalJoin": 134
+            },
+            "VTCDialStringField": {
+                "SerialJoin": 40
+            },
+            "ATCDialStringField": {
+                "SerialJoin": 41
+            },
+            "SpeakerMuteBtn": {
+                "FeedbackDigitalJoin": 60
+            },
+            "SpeakerVolume": {
+                "AnalogJoin": 10
+            }
+        },
+        "PageNavigationElements": {
+            "PageNavigation": {
+                "FeedbackType": "exclusive",
+                "SmartGraphicId": 0,
+                "ActionJoins": [
+                    10,
+                    11,
+                    12,
+                    13,
+                    150,
+                    71,
+                    72,
+                    17,
+                    18,
+                    19,
+                    50,
+                    73,
+                    16,
+                    15,
+                    160
+                ],
+                "FeedbackJoins": [
+                    [
+                        10,
+                        182
+                    ],
+                    [
+                        11
+                    ],
+                    [
+                        12
+                    ],
+                    [
+                        13
+                    ],
+                    [
+                        14,
+                        20,
+                        180
+                    ],
+                    [
+                        15
+                    ],
+                    [
+                        16
+                    ],
+                    [
+                        17
+                    ],
+                    [
+                        18
+                    ],
+                    [
+                        19
+                    ],
+                    [
+                        11
+                    ],
+                    [
+                        13
+                    ],
+                    [
+                        40
+                    ],
+                    [
+                        106
+                    ],
+                    [
+                        14,
+                        181
+                    ]
+                ],
+                "ElementNames": [
+                    "Idle",
+                    "Classification",
+                    "RoomFunction",
+                    "Main",
+                    "VTC Control",
+                    "ATC",
+                    "Settings",
+                    "Power OFF",
+                    "CATV",
+                    "BluRay",
+                    "Classification",
+                    "Main",
+                    "SettingsButtons",
+                    "ATC Controls",
+                    "Camera 1 Controls"
+                ]
+            },
+            "Camera2Controls": {
+                "FeedbackType": "exclusive",
+                "SmartGraphicId": 0,
+                "ActionJoins": [
+                    161
+                ],
+                "FeedbackJoins": [
+                    [
+                        14,
+                        181
+                    ]
+                ],
+                "ElementNames": [
+                    "Camera 2 Controls"
+                ]
+            },
+            "DestinationNavigationFeedback": {
+                "FeedbackType": "exclusive",
+                "SmartGraphicId": 0,
+                "ActionJoins": [
+                    130,
+                    131,
+                    132
+                ],
+                "FeedbackJoins": [
+                    [
+                        130
+                    ],
+                    [
+                        131
+                    ],
+                    [
+                        132
+                    ]
+                ],
+                "ElementNames": [
+                    "Displays",
+                    "VTC",
+                    "Shared"
+                ]
+            },
+            "VTCSubPageFeedback": {
+                "FeedbackType": "exclusive",
+                "SmartGraphicId": 0,
+                "ActionJoins": [
+                    180,
+                    181,
+                    182
+                ],
+                "FeedbackJoins": [
+                    [
+                        180,
+                        20
+                    ],
+                    [
+                        181
+                    ],
+                    [
+                        182
+                    ]
+                ],
+                "ElementNames": [
+                    "VTC DialPad",
+                    "Camera Control",
+                    "VTC Presentation"
+                ]
+            },
+            "VTCDialerPageFeedback": {
+                "FeedbackType": "exclusive",
+                "SmartGraphicId": 0,
+                "ActionJoins": [
+                    20,
+                    21
+                ],
+                "FeedbackJoins": [
+                    [
+                        20
+                    ],
+                    [
+                        21
+                    ]
+                ],
+                "ElementNames": [
+                    "VTC DialPad",
+                    "VTC Speed Dial"
+                ]
+            },
+            "SourceNavigationFeedback": {
+                "FeedbackType": "exclusive",
+                "SmartGraphicId": 0,
+                "ActionJoins": [
+                    30,
+                    31,
+                    32,
+                    33
+                ],
+                "FeedbackJoins": [
+                    [
+                        30
+                    ],
+                    [
+                        31,
+                        26
+                    ],
+                    [
+                        32
+                    ],
+                    [
+                        33
+                    ]
+                ],
+                "ElementNames": [
+                    "Workstations",
+                    "VTC",
+                    "CATV",
+                    "Shared"
+                ]
+            },
+            "PCSourceSelection": {
+                "PopulationType": "variable",
+                "FeedbackType": "exclusive",
+                "SmartGraphicId": 7,
+                "SmartGraphicActionJoins": [
+                    "press1",
+                    "press3",
+                    "press5",
+                    "press7",
+                    "press9",
+                    "press11",
+                    "press13",
+                    "press15",
+                    "press17"
+                ],
+                "SmartGraphicFeedbackJoins": [
+                    [
+                        "fb1"
+                    ],
+                    [
+                        "fb3"
+                    ],
+                    [
+                        "fb5"
+                    ],
+                    [
+                        "fb7"
+                    ],
+                    [
+                        "fb9"
+                    ],
+                    [
+                        "fb11"
+                    ],
+                    [
+                        "fb13"
+                    ],
+                    [
+                        "fb15"
+                    ],
+                    [
+                        "fb17"
+                    ]
+                ],
+                "SmartGraphicVisibilityJoins": [
+                    "Item 1 Visible",
+                    "Item 3 Visible",
+                    "Item 5 Visible",
+                    "Item 7 Visible",
+                    "Item 9 Visible",
+                    "Item 11 Visible",
+                    "Item 13 Visible",
+                    "Item 15 Visible",
+                    "Item 17 Visible"
+                ],
+                "SmartGraphicEnableJoins": [
+                    "Item 1 Enable",
+                    "Item 3 Enable",
+                    "Item 5 Enable",
+                    "Item 7 Enable",
+                    "Item 9 Enable",
+                    "Item 11 Enable",
+                    "Item 13 Enable",
+                    "Item 15 Enable",
+                    "Item 17 Enable"
+                ],
+                "SmartGraphicSerialJoins": [
+                    "text-o1",
+                    "text-o3",
+                    "text-o5",
+                    "text-o7",
+                    "text-o9",
+                    "text-o11",
+                    "text-o13",
+                    "text-o15",
+                    "text-o17"
+                ],
+                "SmartGraphicAnalogJoins": [
+                    "an_fb1",
+                    "an_fb3",
+                    "an_fb5",
+                    "an_fb7",
+                    "an_fb9",
+                    "an_fb11",
+                    "an_fb13",
+                    "an_fb15",
+                    "an_fb17"
+                ]
+            },
+            "CollaborationSourceSelection": {
+                "PopulationType": "static",
+                "FeedbackType": "exclusive",
+                "SmartGraphicId": 0,
+                "ActionJoins": [
+                    230,
+                    231,
+                    210,
+                    211
+                ],
+                "FeedbackJoins": [
+                    [
+                        230
+                    ],
+                    [
+                        231
+                    ],
+                    [
+                        210
+                    ],
+                    [
+                        211
+                    ]
+                ],
+                "EnableJoins": [
+                    230,
+                    231,
+                    212,
+                    213
+                ],
+                "SerialJoins": [
+                    5,
+                    6,
+                    10,
+                    11
+                ],
+                "ElementNames": [
+                    "Front Camera",
+                    "Rear Camera",
+                    "VTC 1",
+                    "VTC 2"
+                ]
+            },
+            "MediaSourceSelection": {
+                "PopulationType": "variable",
+                "FeedbackType": "exclusive",
+                "SmartGraphicId": 8,
+                "SmartGraphicActionJoins": [
+                    "press1",
+                    "press5",
+                    "press9"
+                ],
+                "SmartGraphicFeedbackJoins": [
+                    [
+                        "fb1"
+                    ],
+                    [
+                        "fb5"
+                    ],
+                    [
+                        "fb9"
+                    ]
+                ],
+                "SmartGraphicVisibilityJoins": [
+                    "Item 1 Visible",
+                    "Item 3 Visible",
+                    "Item 5 Visible"
+                ],
+                "SmartGraphicEnableJoins": [
+                    "Item 1 Enable",
+                    "Item 3 Enable",
+                    "Item 5 Enable"
+                ],
+                "SmartGraphicSerialJoins": [
+                    "text-o1",
+                    "text-o3",
+                    "text-o5"
+                ]
+            },
+            "DisplayDestinationSelection": {
+                "PopulationType": "variable",
+                "FeedbackType": "exclusive",
+                "SmartGraphicId": 6,
+                "SmartGraphicActionJoins": [
+                    "press1",
+                    "press4",
+                    "press7",
+                    "press10",
+                    "press13",
+                    "press16",
+                    "press19",
+                    "press22",
+                    "press35"
+                ],
+                "SmartGraphicFeedbackJoins": [
+                    [
+                        "fb2"
+                    ],
+                    [
+                        "fb5"
+                    ],
+                    [
+                        "fb8"
+                    ],
+                    [
+                        "fb11"
+                    ],
+                    [
+                        "fb14"
+                    ],
+                    [
+                        "fb17"
+                    ],
+                    [
+                        "fb20"
+                    ],
+                    [
+                        "fb23"
+                    ],
+                    [
+                        "fb26"
+                    ]
+                ],
+                "SmartGraphicVisibilityJoins": [
+                    "Item 1 Visible",
+                    "Item 2 Visible",
+                    "Item 3 Visible",
+                    "Item 4 Visible",
+                    "Item 5 Visible",
+                    "Item 6 Visible",
+                    "Item 7 Visible",
+                    "Item 8 Visible",
+                    "Item 9 Visible"
+                ],
+                "SmartGraphicEnableJoins": [
+                    "Item 1 Enable",
+                    "Item 2 Enable",
+                    "Item 3 Enable",
+                    "Item 4 Enable",
+                    "Item 5 Enable",
+                    "Item 6 Enable",
+                    "Item 7 Enable",
+                    "Item 8 Enable",
+                    "Item 9 Enable"
+                ],
+                "SmartGraphicSerialJoins": [
+                    "text-o1",
+                    "text-o3",
+                    "text-o5",
+                    "text-o7",
+                    "text-o9",
+                    "text-o11",
+                    "text-o13",
+                    "text-o15",
+                    "text-o17"
+                ],
+                "SmartGraphicAnalogJoins": [
+                    "an_fb1",
+                    "an_fb3",
+                    "an_fb5",
+                    "an_fb7",
+                    "an_fb9",
+                    "an_fb11",
+                    "an_fb13",
+                    "an_fb15",
+                    "an_fb17"
+                ]
+            },
+            "VTCDestinationSelection": {
+                "PopulationType": "static",
+                "FeedbackType": "none",
+                "SmartGraphicId": 0,
+                "ActionJoins": [
+                    320,
+                    321,
+                    322
+                ],
+                "SerialJoins": [
+                    320,
+                    321,
+                    322
+                ]
+            },
+            "DisplayRouteFeedback": {
+                "FeedbackType": "exclusive",
+                "SmartGraphicId": 6,
+                "SerialJoins": [
+                    12,
+                    14,
+                    16
+                ],
+                "ElementNames": [
+                    "Left Display",
+                    "Right Display",
+                    "Audio"
+                ]
+            },
+            "TimeZoneSelection": {
+                "FeedbackType": "exclusive",
+                "SmartGraphicId": 0,
+                "ActionJoins": [
+                    560,
+                    561,
+                    562,
+                    563,
+                    564,
+                    565,
+                    566,
+                    567
+                ],
+                "FeedbackJoins": [
+                    [
+                        560
+                    ],
+                    [
+                        561
+                    ],
+                    [
+                        562
+                    ],
+                    [
+                        563
+                    ],
+                    [
+                        564
+                    ],
+                    [
+                        565
+                    ],
+                    [
+                        566
+                    ],
+                    [
+                        567
+                    ]
+                ],
+                "ElementNames": [
+                    "Timezone 1",
+                    "Timezone 2",
+                    "Timezone 3",
+                    "Timezone 4",
+                    "Timezone 5",
+                    "Timezone 6",
+                    "Timezone 7",
+                    "Timezone 8"
+                ]
+            }
+        },
+        "DeviceFeedbackElements": {
+            "DSP": [
+                {
+                    "DeviceName": "DSP",
+                    "EventName": "Volume Mute",
+                    "FeedbackType": 1,
+                    "Button": "SpeakerMuteBtn"
+                },
+                {
+                    "DeviceName": "DSP",
+                    "EventName": "Volume",
+                    "FeedbackType": 2,
+                    "Button": "SpeakerVolume"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,103 @@
+{
+    "PhysicalPillar": {
+        "ClassificationList": {
+            "NO STATE": {
+                "Name": "NO STATE",
+                "RelativeValue": "0"
+            },
+            "UNCLASSIFIED": {
+                "Name": "UNCLASSIFIED",
+                "RelativeValue": "1"
+            },
+            "SECRET": {
+                "Name": "SECRET",
+                "RelativeValue": "2"
+            }
+        },
+        "Building": {
+            "name": "Test Building",
+            "Floors": [
+                {
+                    "Name": "1st Floor",
+                    "Systems": [
+                        {
+                            "Name": "Pershing Practice System",
+                            "Rooms": [
+                                {
+                                    "Name": "Pershing Practice Room",
+                                    "Deleted": 0
+                                }
+                            ],
+                            "Deleted": 0
+                        }
+                    ],
+                    "Deleted": 0
+                }
+            ],
+            "Deleted": 0
+        },
+        "SystemStatusElements": {
+            "RoomCombinedStatus": {
+                "Type": "exclusive",
+                "SmartGraphicId": 0,
+                "ActionJoins": [
+                    1000,
+                    1001,
+                    1002
+                ],
+                "OptionNames": [
+                    "RoomsOff",
+                    "RoomsDivided",
+                    "RoomsCombined"
+                ],
+                "RelativeValues": [
+                    0,
+                    1,
+                    2
+                ],
+                "CurrentStatus": 1
+            }
+        },
+        "RoomStatusElements": {
+            "RoomOnMode": {
+                "Type": "discrete",
+                "SmartGraphicId": 0,
+                "ActionJoins": [
+                    100
+                ],
+                "CurrentStatus": 0
+            },
+            "RoomClassification": {
+                "Type": "exclusive",
+                "SmartGraphicId": 0,
+                "ActionJoins": [
+                    200,
+                    111,
+                    112,
+                    113
+                ],
+                "CurrentStatus": 0
+            },
+            "RoomMode": {
+                "Type": "exclusive",
+                "SmartGraphicId": 0,
+                "ActionJoins": [
+                    120,
+                    121,
+                    122,
+                    123,
+                    125
+                ],
+                "CurrentStatus": 0
+            },
+            "RoomSanitizeMode": {
+                "Type": "toggle",
+                "SmartGraphicId": 0,
+                "ActionJoins": [
+                    70
+                ],
+                "CurrentStatus": 0
+            }
+        }
+    }
+}

@@ -1,0 +1,60 @@
+{
+   "PhysicalPillar": {
+      "building": {
+         "name": "Test Building",
+         "floors": [
+            {
+               "name": "1st Floor",
+               "systems": [
+                  {
+                     "name": "Pershing Practice System",
+                     "rooms": [
+                        {
+                           "name": "Pershing Practice Room",
+                           "deleted": 0
+                        }
+                     ],
+                     "deleted": 0
+                  }
+               ],
+               "deleted": 0
+            }
+         ],
+         "deleted": 0
+      },
+      "SystemStatusElements": {
+         "FakeStatus": {
+            "Type": "exclusive",
+            "SmartGraphicId": 0,
+            "ActionJoins": [
+               1000
+            ],
+            "OptionNames": [
+               "na"
+            ],
+            "RelativeValues": [
+               1
+            ],
+            "CurrentStatus": 1
+         }
+      },
+      "RoomStatusElements": {
+         "RoomOnMode": {
+            "Type": "discrete",
+            "SmartGraphicId": 0,
+            "ActionJoins": [
+               12
+            ],
+            "CurrentStatus": 0
+         },
+         "RoomOffMode": {
+            "Type": "discrete",
+            "SmartGraphicId": 0,
+            "ActionJoins": [
+               16
+            ],
+            "CurrentStatus": 0
+         }
+      }
+   }
+}
